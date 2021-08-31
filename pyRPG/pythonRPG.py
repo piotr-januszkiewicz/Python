@@ -1,4 +1,5 @@
 #idea: modern rpg. a person living in present reality
+#idea: teenage story?
 
 #Lets start with smth classical: name, money and hp. based on that
 #I can start building a story
@@ -23,4 +24,7 @@ class Choices:
             return self.choices[pos]
         else: return None
 
-   
+class Person:
+    def __init__(self, Name, Attitude):
+        self.name = Name
+        self.attitude = Attitude
