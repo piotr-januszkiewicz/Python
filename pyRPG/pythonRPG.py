@@ -1,3 +1,4 @@
+#idea: modern rpg. a person living in present reality
 
 #Lets start with smth classical: name, money and hp. based on that
 #I can start building a story
