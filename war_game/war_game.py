@@ -18,7 +18,7 @@ class Card:
                 return True
             else: return False
         return False
-
+    
     def __gt__(self, other):
         if self.value > other.value:
             return True
@@ -35,9 +35,9 @@ class Card:
 class Deck:
     def __init__(self):
         self.cards = []
-        for i in range(2,15):
+        for i in range(2,14):
             for j in range(4):
-                self.cards.append(Card(i,j))
+                self.cards.append(Card(j, i))
         shuffle(self.cards)
 
     def give_card(self):
@@ -59,7 +59,7 @@ class Game:
         self.p1 = Player(name1)
         self.p2 = Player(name2)
 
-    def win(self, winner):
+    def wins(self, winner):
         w = "This rounds winner is {}".format(winner)
         print(w)
 
