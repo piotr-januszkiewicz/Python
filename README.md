@@ -1,5 +1,3 @@
 # Python
 
-My journey with this wonderful language. List of projects:
-- War card game
-- Guess the number game
+This repo contains files on which i've practiced Python
