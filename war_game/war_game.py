@@ -99,19 +99,3 @@ class Game:
 
 gam = Game()
 gam.game()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
